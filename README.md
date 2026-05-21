@@ -1,5 +1,5 @@
 # strategic-it-operations-dashboard
-Strategic dashboard
+Strategic dashboard <br/>
 README.md
 /data
 /images

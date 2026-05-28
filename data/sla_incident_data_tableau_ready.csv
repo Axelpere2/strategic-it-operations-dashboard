@@ -1,0 +1,11 @@
+Ticket ID,Priority,Support Team,Opened Date,Resolved Date,SLA Target Hours,Actual Resolution Hours,Breached SLA,Breach Reason
+INC1001,P1,Network,2026-04-20,2026-04-20,4,3.5,No,N/A
+INC1002,P2,Application,2026-04-20,2026-04-21,8,10,Yes,Delayed escalation
+INC1003,P3,Service Desk,2026-04-21,2026-04-23,24,30,Yes,High ticket volume
+INC1004,P2,Network,2026-04-21,2026-04-21,8,6,No,N/A
+INC1005,P1,Application,2026-04-22,2026-04-22,4,5,Yes,Vendor dependency
+INC1006,P3,Workplace,2026-04-22,2026-04-23,24,20,No,N/A
+INC1007,P2,Service Desk,2026-04-23,2026-04-24,8,12,Yes,Incorrect assignment
+INC1008,P4,Workplace,2026-04-23,2026-04-25,48,44,No,N/A
+INC1009,P3,Application,2026-04-24,2026-04-26,24,28,Yes,Pending user confirmation
+INC1010,P2,Network,2026-04-24,2026-04-25,8,9,Yes,Delayed troubleshooting

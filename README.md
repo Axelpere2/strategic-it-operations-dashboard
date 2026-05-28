@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project presents a strategic and operational IT dashboard designed to monitor incident performance, SLA compliance, support team efficiency, priority distribution, and recurring operational issues.
+This project presents a strategic and operational IT dashboard designed to monitor incident performance, SLA compliance, support team performance, priority distribution, and recurring operational issues.
 
 The dashboard was created as a portfolio project to simulate how an IT Operations or Incident Management team can use data visualization to support executive decision-making and continuous improvement.
 
@@ -48,8 +48,6 @@ The objective of this project is to create a Tableau dashboard that helps stakeh
 
 ## Dashboard Sections
 
-The Tableau dashboard includes the following sections:
-
 1. **Executive Summary**  
    High-level view of total incidents, SLA breaches, breach rate, and overall service performance.
 
@@ -75,15 +73,13 @@ The Tableau dashboard includes the following sections:
 
 ## Recommendations
 
-Based on the dashboard analysis, the following actions are recommended:
-
 1. Review support teams with the highest SLA breach contribution.
 2. Investigate recurring root causes and create Problem Management records where needed.
 3. Improve escalation procedures for high-priority incidents.
 4. Monitor SLA performance weekly to detect negative trends earlier.
 5. Use the dashboard as part of operational review meetings with IT leadership.
 
-## Files Included
+## Repository Structure
 
 ```text
 strategic-it-operations-dashboard/
@@ -92,13 +88,10 @@ strategic-it-operations-dashboard/
 ├── dashboard-link.txt
 │
 ├── data/
-│   ├── incident_tickets_april_2026.csv
 │   └── data_dictionary.md
 │
 ├── images/
-│   ├── dashboard_overview.png
-│   ├── dashboard_sla_analysis.png
-│   └── dashboard_ticket_detail.png
+│   └── README.md
 │
 └── presentation/
-    └── strategic_and_operational_dashboard.pdf
+    └── README.md

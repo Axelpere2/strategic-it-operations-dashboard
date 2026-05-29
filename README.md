@@ -101,3 +101,42 @@ strategic-it-operations-dashboard/
 │
 └── presentation/
     └── README.md
+
+## Dashboard Link
+
+Tableau Public Dashboard:  
+[View the Tableau Dashboard](https://public.tableau.com/app/profile/leonardo.p.rez3098/viz/SLAIncidentAnalysis/SLAStrategicDashboard?publish=yes)
+
+## Presentation
+
+The executive presentation will be included in the `presentation` folder.
+
+## Portfolio Value
+
+This project demonstrates practical skills relevant to international roles such as:
+
+- Incident Manager
+- IT Operations Analyst
+- Service Delivery Analyst
+- ITSM Analyst
+- Problem Manager
+- Data Analyst
+- Business Analyst
+- Process Improvement Analyst
+
+## Skills Demonstrated
+
+- IT Operations reporting
+- SLA performance analysis
+- Incident Management analytics
+- Dashboard design
+- Executive communication
+- KPI definition
+- Root cause analysis
+- Data storytelling
+- Tableau dashboard development
+- Process improvement thinking
+
+## Notes
+
+This is a portfolio project created with sample or anonymized data. No confidential company information is included.

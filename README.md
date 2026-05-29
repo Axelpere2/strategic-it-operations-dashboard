@@ -84,9 +84,9 @@ Operational table for reviewing individual incidents and supporting deeper analy
 4. Monitor SLA performance weekly to detect negative trends earlier.
 5. Use the dashboard as part of operational review meetings with IT leadership.
 
+```md
 ## Repository Structure
 
-```text
 strategic-it-operations-dashboard/
 │
 ├── README.md
@@ -101,6 +101,7 @@ strategic-it-operations-dashboard/
 │
 └── presentation/
     └── README.md
+```
 
 ## Dashboard Link
 

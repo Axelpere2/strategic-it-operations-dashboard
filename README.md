@@ -1,5 +1,7 @@
 # Strategic IT Operations Dashboard
 
+**Live Dashboard:** [View the Tableau Dashboard](https://public.tableau.com/app/profile/leonardo.p.rez3098/viz/SLAIncidentAnalysis/SLAStrategicDashboard?publish=yes)
+
 ## Project Overview
 
 This project presents a strategic and operational IT dashboard designed to monitor incident performance, SLA compliance, support team performance, priority distribution, and recurring operational issues.

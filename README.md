@@ -48,20 +48,25 @@ The objective of this project is to create a Tableau dashboard that helps stakeh
 
 ## Dashboard Sections
 
-1. **Executive Summary**  
-   High-level view of total incidents, SLA breaches, breach rate, and overall service performance.
+### 1. Executive Summary
 
-2. **SLA Performance Analysis**  
-   Visualization of SLA compliance and breached tickets.
+High-level view of total incidents, SLA breaches, breach rate, and overall service performance.
 
-3. **Priority and Support Team Analysis**  
-   Breakdown of incidents by priority and support team to identify workload and risk concentration.
+### 2. SLA Performance Analysis
 
-4. **Root Cause Analysis**  
-   Identification of recurring causes contributing to SLA breaches.
+Visualization of SLA compliance and breached tickets.
 
-5. **Ticket Detail View**  
-   Operational table for reviewing individual incidents and supporting deeper analysis.
+### 3. Priority and Support Team Analysis
+
+Breakdown of incidents by priority and support team to identify workload and risk concentration.
+
+### 4. Root Cause Analysis
+
+Identification of recurring causes contributing to SLA breaches.
+
+### 5. Ticket Detail View
+
+Operational table for reviewing individual incidents and supporting deeper analysis.
 
 ## Key Insights
 
@@ -88,7 +93,8 @@ strategic-it-operations-dashboard/
 ├── dashboard-link.txt
 │
 ├── data/
-│   └── data_dictionary.md
+│   ├── data_dictionary.md
+│   └── sla_incident_data_tableau_ready.csv
 │
 ├── images/
 │   └── README.md

@@ -4,37 +4,47 @@
 
 ## Project Overview
 
-This project presents a strategic and operational IT dashboard designed to monitor incident performance, SLA compliance, support team performance, priority distribution, and recurring operational issues.
+This project presents a strategic and operational Tableau dashboard designed to monitor incident performance, SLA compliance, support team performance, priority distribution, and recurring SLA breach reasons.
 
-The dashboard was created as a portfolio project to simulate how an IT Operations or Incident Management team can use data visualization to support executive decision-making and continuous improvement.
+The dashboard simulates how an IT Operations or Incident Management team can use data visualization to support executive decision-making, operational reviews, and continuous improvement.
 
-## Business Scenario
+## Business Problem
 
-A global IT Operations team needs better visibility into incident performance for April 2026. Leadership wants to understand whether the support organization is meeting SLA targets, which teams are generating the highest number of breaches, which priorities require attention, and what root causes are affecting service performance.
+IT Operations leadership needs clear visibility into incident performance. Without a dashboard, it is difficult to quickly identify SLA risks, underperforming support teams, recurring breach reasons, and high-priority tickets that require immediate attention.
 
-The goal is to provide both an executive-level summary and operational details that can help managers identify risks, prioritize improvement actions, and improve service delivery.
+This dashboard helps transform incident data into actionable insights for service delivery improvement.
 
-## Objective
+## Dashboard Objective
 
-The objective of this project is to create a Tableau dashboard that helps stakeholders:
+The objective of this dashboard is to help IT Operations stakeholders answer five key questions:
 
-- Monitor total incidents and SLA performance.
-- Identify SLA breaches and breach rate.
-- Analyze incident distribution by priority and support team.
-- Understand the main root causes behind SLA breaches.
-- Review detailed ticket-level information.
-- Support decision-making for Incident Management, Problem Management, and Service Delivery improvement.
+- Are we meeting SLA targets?
+- How many incidents breached SLA?
+- Which priorities are creating the highest operational risk?
+- Which support teams need closer follow-up?
+- What are the most common reasons for SLA breaches?
+
+## KPIs Tracked
+
+- Total incidents
+- SLA breaches
+- SLA breach rate
+- Average resolution time
+- Incidents by priority
+- SLA performance by support team
+- Breach reasons
+- Ticket-level operational details
 
 ## Tools Used
 
 - Tableau
-- Google Slides
 - Excel / CSV
+- Google Slides
 - ITIL 4 concepts
 - Incident Management
-- SLA Analysis
-- KPI Reporting
-- Executive Communication
+- SLA analysis
+- KPI reporting
+- Executive communication
 
 ## Key Metrics
 
@@ -43,9 +53,10 @@ The objective of this project is to create a Tableau dashboard that helps stakeh
 | Total Tickets | Number of incidents analyzed during the reporting period |
 | SLA Breaches | Number of tickets that breached the agreed SLA |
 | Breach Rate | Percentage of incidents that breached SLA |
+| Average Resolution Time | Average time required to resolve incidents |
 | Priority Distribution | Incident volume by priority level |
 | Support Team Performance | SLA performance by assigned support team |
-| Root Cause Analysis | Main causes contributing to breaches |
+| Breach Reason Analysis | Main reasons contributing to SLA breaches |
 | Ticket-Level Detail | Detailed operational view of individual incidents |
 
 ## Dashboard Sections
@@ -62,9 +73,9 @@ Visualization of SLA compliance and breached tickets.
 
 Breakdown of incidents by priority and support team to identify workload and risk concentration.
 
-### 4. Root Cause Analysis
+### 4. Breach Reason Analysis
 
-Identification of recurring causes contributing to SLA breaches.
+Identification of recurring reasons contributing to SLA breaches.
 
 ### 5. Ticket Detail View
 
@@ -72,23 +83,25 @@ Operational table for reviewing individual incidents and supporting deeper analy
 
 ## Key Insights
 
-- SLA breaches are concentrated in specific support areas, which suggests the need for targeted improvement actions.
-- Higher-priority incidents have a stronger impact on operational performance and require close monitoring.
-- Recurring root causes indicate opportunities for Problem Management and process improvement.
-- Ticket-level visibility supports better follow-up, escalation, and accountability.
+Based on the sample incident data:
+
+- SLA breaches are concentrated in specific support areas.
+- High-priority incidents require stronger monitoring because their SLA targets are shorter.
+- Recurring breach reasons suggest opportunities for Problem Management.
+- Ticket-level visibility helps managers follow up on specific incidents.
 - Executive dashboards can help leadership make faster and more data-driven decisions.
 
 ## Recommendations
 
 1. Review support teams with the highest SLA breach contribution.
-2. Investigate recurring root causes and create Problem Management records where needed.
-3. Improve escalation procedures for high-priority incidents.
+2. Improve escalation rules for P1 and P2 incidents.
+3. Analyze recurring breach reasons through Problem Management.
 4. Monitor SLA performance weekly to detect negative trends earlier.
-5. Use the dashboard as part of operational review meetings with IT leadership.
+5. Use the dashboard during operational review meetings with IT leadership.
 
-```md
 ## Repository Structure
 
+```text
 strategic-it-operations-dashboard/
 │
 ├── README.md
@@ -105,18 +118,13 @@ strategic-it-operations-dashboard/
     └── README.md
 ```
 
-## Dashboard Link
-
-Tableau Public Dashboard:  
-[View the Tableau Dashboard](https://public.tableau.com/app/profile/leonardo.p.rez3098/viz/SLAIncidentAnalysis/SLAStrategicDashboard?publish=yes)
-
 ## Presentation
 
-The executive presentation will be included in the `presentation` folder.
+The executive presentation is included in the `presentation` folder.
 
 ## Portfolio Value
 
-This project demonstrates practical skills relevant to international roles such as:
+This project demonstrates practical skills relevant to roles such as:
 
 - Incident Manager
 - IT Operations Analyst
@@ -135,7 +143,7 @@ This project demonstrates practical skills relevant to international roles such 
 - Dashboard design
 - Executive communication
 - KPI definition
-- Root cause analysis
+- Breach reason analysis
 - Data storytelling
 - Tableau dashboard development
 - Process improvement thinking
